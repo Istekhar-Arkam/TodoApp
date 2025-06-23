@@ -10,7 +10,6 @@ function AddTodo() {
     dispatch(addTodo(input));
     setInput("");
   };
-
   return (
     <form
       onSubmit={addTodoHandler}
